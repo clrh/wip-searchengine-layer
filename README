@@ -1,0 +1,3 @@
+#kohahack12 - solr/zebra team
+
+goal: think and begin to write a search layer to provide to koha the choice between two (or more) searchengines (exemple: Zebra - because it is here - and Solr)

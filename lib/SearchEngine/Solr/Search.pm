@@ -1,4 +1,4 @@
-package SearchEngine::SOLR::Search;
+package SearchEngine::Solr::Search;
 use Moose::Role;
 with 'SearchEngine::SearchRole';
 
