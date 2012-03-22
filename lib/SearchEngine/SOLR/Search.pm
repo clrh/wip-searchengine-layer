@@ -1,5 +1,6 @@
 package SearchEngine::SOLR::Search;
 use Moose::Role;
+with 'SearchEngine::SearchRole';
 
 use Data::SearchEngine::Solr;
 use Data::SearchEngine::Query;
@@ -47,5 +48,7 @@ sub search {
                 warn dump $title;
     }
 }
+
+sub dosmth {'bou' }
 
 1;
