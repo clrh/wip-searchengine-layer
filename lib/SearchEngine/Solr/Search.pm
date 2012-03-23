@@ -5,13 +5,15 @@ with 'SearchEngine::SearchRole';
 use Data::SearchEngine::Solr;
 use Data::SearchEngine::Query;
 use Data::Dump qw(dump);
+use Data::Dumper;
+use YAML;
 
 has solr => (
     is => 'ro',
     lazy => 1,
     default => sub {
         Data::SearchEngine::Solr->new(
-           url => 'http://192.168.1.37:8983/solr/devsolr',
+           url => 'http://localhost:8983/solr/devsolr',
            options => {
                fq => 'recordtype:biblio',
                facets => 'true'
@@ -40,6 +42,9 @@ sub search {
     warn "search for $query_string";
 
     my $results = $self->solr->search($query);
+    #warn Data::Dump::dump ($results);
+    #warn Data::Dumper::Dumper ($results);
+    warn YAML::Dump ($results);
 
     foreach my $item (@{ $results->items }) {
         my $title = $item->get_value('ste_title');

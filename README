@@ -1,3 +1,11 @@
 #kohahack12 - solr/zebra team
 
 goal: think and begin to write a search layer to provide to koha the choice between two (or more) searchengines (exemple: Zebra - because it is here - and Solr)
+
+What's next?
+- Moose mock et tests
+- encapsulate configuration data in an object
+- encapsulate db access in a specific data layer
+- pod doc and koha community share
+- transform naming in a more clear words to deferentiate "objects" from "business logic" from "data access"
+- discuss to integrate a Data::SearchEngine::Zebra inside
