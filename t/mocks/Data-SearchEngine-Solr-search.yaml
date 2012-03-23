@@ -1,0 +1,709 @@
+elapsed: 0.0672030448913574
+facets: {}
+items:
+  - !!perl/hash:Data::SearchEngine::Item
+    id: biblio_42
+    score: 0
+    values:
+      date_acqdate: 2011-05-19T00:00:00Z
+      date_entereddate: 2011-05-19T00:00:00Z
+      date_lastmodified: 2011-05-19T00:00:00Z
+      date_pubdate: 1964-01-01T00:00:00Z
+      emste_author:
+        - Réau Louis
+        - Louis Réau
+        - 614
+        - Réau
+        - Louis
+        - 665
+      emste_author-firstname: Louis
+      emste_author-name-personal: Réau
+      emste_callnumber: MAG3 730.92 HOU
+      emste_itemcallnumber: MAG3 730.92 HOU
+      emste_name:
+        - 614
+        - Réau
+        - Louis
+        - 665
+      emste_personnal-name:
+        - 615
+        - Houdon
+        - Jean Antoine
+        - 1741-1828
+        - 232
+      emste_publisher: F. de Nobèle
+      emste_pubplace: rrr
+      emste_subject:
+        - 615
+        - Houdon
+        - Jean Antoine
+        - 1741-1828
+        - 232
+      emste_title:
+        - 'Houdon, sa vie son oeuvre'
+        - ",ouvrage posthume suivi d'un catalogue systématique"
+        - Catalogue de l'oeuvre et reproductions
+      emste_title-cover:
+        - 'Houdon, sa vie son oeuvre'
+        - ",ouvrage posthume suivi d'un catalogue systématique"
+        - Catalogue de l'oeuvre et reproductions
+      id: biblio_42
+      int_authid:
+        - 615
+        - 614
+      int_availability: 1
+      int_biblionumber: 42
+      int_lost: 1
+      int_rflag: 2
+      recordid: 42
+      recordtype: biblio
+      srt_date_acqdate: 2011-05-19T00:00:00Z
+      srt_date_pubdate: 1964-01-01T00:00:00Z
+      srt_ste_author: Réau Louis
+      srt_ste_callnumber: MAG3 730.92 HOU
+      srt_ste_title: 'Houdon, sa vie son oeuvre'
+      srt_str_ccode: 1
+      srt_str_location: 36
+      ste_author:
+        - Réau Louis
+        - Louis Réau
+        - 614
+        - Réau
+        - Louis
+        - 665
+      ste_author-firstname: Louis
+      ste_author-name-personal: Réau
+      ste_callnumber: MAG3 730.92 HOU
+      ste_itemcallnumber: MAG3 730.92 HOU
+      ste_name:
+        - 614
+        - Réau
+        - Louis
+        - 665
+      ste_personnal-name:
+        - 615
+        - Houdon
+        - Jean Antoine
+        - 1741-1828
+        - 232
+      ste_publisher: F. de Nobèle
+      ste_pubplace: rrr
+      ste_subject:
+        - 615
+        - Houdon
+        - Jean Antoine
+        - 1741-1828
+        - 232
+      ste_title:
+        - 'Houdon, sa vie son oeuvre'
+        - ",ouvrage posthume suivi d'un catalogue systématique"
+        - Catalogue de l'oeuvre et reproductions
+      ste_title-cover:
+        - 'Houdon, sa vie son oeuvre'
+        - ",ouvrage posthume suivi d'un catalogue systématique"
+        - Catalogue de l'oeuvre et reproductions
+      str_author:
+        - Réau Louis
+        - Louis Réau
+        - 614
+        - Réau
+        - Louis
+        - 665
+      str_barcode: 38700004081742
+      str_ccode: 1
+      str_holdingbranch: CENTRE
+      str_homebranch: CENTRE
+      str_identifier:
+        - 42
+        - BFMLIM507
+      str_item:
+        - HOU
+        - MAG3 730.92 HOU
+        - Adulte
+        - Documentaire
+        - 38700004081742
+        - 2011-05-19
+        - 46
+        - CENTRE
+        - 1
+        - 730.92
+        - 36
+        - MAG3
+        - 4
+      str_itype: 1
+      str_lang: fre
+      str_location: 36
+      str_subject:
+        - 615
+        - Houdon
+        - Jean Antoine
+        - 1741-1828
+        - 232
+pager: !!perl/hash:Data::SearchEngine::Paginator
+  current_page: 1
+  entries_per_page: 10
+  total_entries: 1
+query: !!perl/hash:Data::SearchEngine::Query
+  count: 10
+  facets: {}
+  filters: {}
+  page: 1
+  query: id:biblio_42
+raw: !!perl/hash:WebService::Solr::Response
+  content:
+    response:
+      docs:
+        - date_acqdate:
+            - 2011-05-19T00:00:00Z
+          date_entereddate:
+            - 2011-05-19T00:00:00Z
+          date_lastmodified:
+            - 2011-05-19T00:00:00Z
+          date_pubdate:
+            - 1964-01-01T00:00:00Z
+          emste_author:
+            - Réau Louis
+            - Louis Réau
+            - 614
+            - Réau
+            - Louis
+            - 665
+          emste_author-firstname:
+            - Louis
+          emste_author-name-personal:
+            - Réau
+          emste_callnumber:
+            - MAG3 730.92 HOU
+          emste_itemcallnumber:
+            - MAG3 730.92 HOU
+          emste_name:
+            - 614
+            - Réau
+            - Louis
+            - 665
+          emste_personnal-name:
+            - 615
+            - Houdon
+            - Jean Antoine
+            - 1741-1828
+            - 232
+          emste_publisher:
+            - F. de Nobèle
+          emste_pubplace:
+            - rrr
+          emste_subject:
+            - 615
+            - Houdon
+            - Jean Antoine
+            - 1741-1828
+            - 232
+          emste_title:
+            - 'Houdon, sa vie son oeuvre'
+            - ",ouvrage posthume suivi d'un catalogue systématique"
+            - Catalogue de l'oeuvre et reproductions
+          emste_title-cover:
+            - 'Houdon, sa vie son oeuvre'
+            - ",ouvrage posthume suivi d'un catalogue systématique"
+            - Catalogue de l'oeuvre et reproductions
+          id: biblio_42
+          int_authid:
+            - 615
+            - 614
+          int_availability:
+            - 1
+          int_biblionumber:
+            - 42
+          int_lost:
+            - 1
+          int_rflag:
+            - 2
+          recordid: 42
+          recordtype: biblio
+          srt_date_acqdate: 2011-05-19T00:00:00Z
+          srt_date_pubdate: 1964-01-01T00:00:00Z
+          srt_ste_author: Réau Louis
+          srt_ste_callnumber: MAG3 730.92 HOU
+          srt_ste_title: 'Houdon, sa vie son oeuvre'
+          srt_str_ccode: 1
+          srt_str_location: 36
+          ste_author:
+            - Réau Louis
+            - Louis Réau
+            - 614
+            - Réau
+            - Louis
+            - 665
+          ste_author-firstname:
+            - Louis
+          ste_author-name-personal:
+            - Réau
+          ste_callnumber:
+            - MAG3 730.92 HOU
+          ste_itemcallnumber:
+            - MAG3 730.92 HOU
+          ste_name:
+            - 614
+            - Réau
+            - Louis
+            - 665
+          ste_personnal-name:
+            - 615
+            - Houdon
+            - Jean Antoine
+            - 1741-1828
+            - 232
+          ste_publisher:
+            - F. de Nobèle
+          ste_pubplace:
+            - rrr
+          ste_subject:
+            - 615
+            - Houdon
+            - Jean Antoine
+            - 1741-1828
+            - 232
+          ste_title:
+            - 'Houdon, sa vie son oeuvre'
+            - ",ouvrage posthume suivi d'un catalogue systématique"
+            - Catalogue de l'oeuvre et reproductions
+          ste_title-cover:
+            - 'Houdon, sa vie son oeuvre'
+            - ",ouvrage posthume suivi d'un catalogue systématique"
+            - Catalogue de l'oeuvre et reproductions
+          str_author:
+            - Réau Louis
+            - Louis Réau
+            - 614
+            - Réau
+            - Louis
+            - 665
+          str_barcode:
+            - 38700004081742
+          str_ccode:
+            - 1
+          str_holdingbranch:
+            - CENTRE
+          str_homebranch:
+            - CENTRE
+          str_identifier:
+            - 42
+            - BFMLIM507
+          str_item:
+            - HOU
+            - MAG3 730.92 HOU
+            - Adulte
+            - Documentaire
+            - 38700004081742
+            - 2011-05-19
+            - 46
+            - CENTRE
+            - 1
+            - 730.92
+            - 36
+            - MAG3
+            - 4
+          str_itype:
+            - 1
+          str_lang:
+            - fre
+          str_location:
+            - 36
+          str_subject:
+            - 615
+            - Houdon
+            - Jean Antoine
+            - 1741-1828
+            - 232
+      numFound: 1
+      start: 0
+    responseHeader:
+      QTime: 0
+      params:
+        facets: true
+        fq: recordtype:biblio
+        q: id:biblio_42
+        rows: 10
+        start: 0
+        wt: json
+      status: 0
+  docs:
+    - !!perl/hash:WebService::Solr::Document
+      fields:
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_author-firstname
+          value: Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: srt_str_location
+          value: 36
+        - !!perl/hash:WebService::Solr::Field
+          name: str_location
+          value: 36
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_pubplace
+          value: rrr
+        - !!perl/hash:WebService::Solr::Field
+          name: str_ccode
+          value: 1
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_itemcallnumber
+          value: MAG3 730.92 HOU
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_personnal-name
+          value: 615
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_personnal-name
+          value: Houdon
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_personnal-name
+          value: Jean Antoine
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_personnal-name
+          value: 1741-1828
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_personnal-name
+          value: 232
+        - !!perl/hash:WebService::Solr::Field
+          name: id
+          value: biblio_42
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_author-name-personal
+          value: Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: str_author
+          value: Réau Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: str_author
+          value: Louis Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: str_author
+          value: 614
+        - !!perl/hash:WebService::Solr::Field
+          name: str_author
+          value: Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: str_author
+          value: Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: str_author
+          value: 665
+        - !!perl/hash:WebService::Solr::Field
+          name: srt_date_pubdate
+          value: 1964-01-01T00:00:00Z
+        - !!perl/hash:WebService::Solr::Field
+          name: str_holdingbranch
+          value: CENTRE
+        - !!perl/hash:WebService::Solr::Field
+          name: str_subject
+          value: 615
+        - !!perl/hash:WebService::Solr::Field
+          name: str_subject
+          value: Houdon
+        - !!perl/hash:WebService::Solr::Field
+          name: str_subject
+          value: Jean Antoine
+        - !!perl/hash:WebService::Solr::Field
+          name: str_subject
+          value: 1741-1828
+        - !!perl/hash:WebService::Solr::Field
+          name: str_subject
+          value: 232
+        - !!perl/hash:WebService::Solr::Field
+          name: int_authid
+          value: 615
+        - !!perl/hash:WebService::Solr::Field
+          name: int_authid
+          value: 614
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_author-firstname
+          value: Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: str_lang
+          value: fre
+        - !!perl/hash:WebService::Solr::Field
+          name: int_lost
+          value: 1
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_title-cover
+          value: 'Houdon, sa vie son oeuvre'
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_title-cover
+          value: ",ouvrage posthume suivi d'un catalogue systématique"
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_title-cover
+          value: Catalogue de l'oeuvre et reproductions
+        - !!perl/hash:WebService::Solr::Field
+          name: str_identifier
+          value: 42
+        - !!perl/hash:WebService::Solr::Field
+          name: str_identifier
+          value: BFMLIM507
+        - !!perl/hash:WebService::Solr::Field
+          name: int_rflag
+          value: 2
+        - !!perl/hash:WebService::Solr::Field
+          name: int_biblionumber
+          value: 42
+        - !!perl/hash:WebService::Solr::Field
+          name: str_barcode
+          value: 38700004081742
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_author-name-personal
+          value: Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: date_entereddate
+          value: 2011-05-19T00:00:00Z
+        - !!perl/hash:WebService::Solr::Field
+          name: date_pubdate
+          value: 1964-01-01T00:00:00Z
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_publisher
+          value: F. de Nobèle
+        - !!perl/hash:WebService::Solr::Field
+          name: date_acqdate
+          value: 2011-05-19T00:00:00Z
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_subject
+          value: 615
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_subject
+          value: Houdon
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_subject
+          value: Jean Antoine
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_subject
+          value: 1741-1828
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_subject
+          value: 232
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_author
+          value: Réau Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_author
+          value: Louis Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_author
+          value: 614
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_author
+          value: Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_author
+          value: Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_author
+          value: 665
+        - !!perl/hash:WebService::Solr::Field
+          name: srt_str_ccode
+          value: 1
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_callnumber
+          value: MAG3 730.92 HOU
+        - !!perl/hash:WebService::Solr::Field
+          name: date_lastmodified
+          value: 2011-05-19T00:00:00Z
+        - !!perl/hash:WebService::Solr::Field
+          name: srt_ste_title
+          value: 'Houdon, sa vie son oeuvre'
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_name
+          value: 614
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_name
+          value: Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_name
+          value: Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_name
+          value: 665
+        - !!perl/hash:WebService::Solr::Field
+          name: recordtype
+          value: biblio
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_callnumber
+          value: MAG3 730.92 HOU
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: HOU
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: MAG3 730.92 HOU
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: Adulte
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: Documentaire
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: 38700004081742
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: 2011-05-19
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: 46
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: CENTRE
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: 1
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: 730.92
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: 36
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: MAG3
+        - !!perl/hash:WebService::Solr::Field
+          name: str_item
+          value: 4
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_subject
+          value: 615
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_subject
+          value: Houdon
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_subject
+          value: Jean Antoine
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_subject
+          value: 1741-1828
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_subject
+          value: 232
+        - !!perl/hash:WebService::Solr::Field
+          name: srt_date_acqdate
+          value: 2011-05-19T00:00:00Z
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_name
+          value: 614
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_name
+          value: Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_name
+          value: Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_name
+          value: 665
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_title
+          value: 'Houdon, sa vie son oeuvre'
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_title
+          value: ",ouvrage posthume suivi d'un catalogue systématique"
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_title
+          value: Catalogue de l'oeuvre et reproductions
+        - !!perl/hash:WebService::Solr::Field
+          name: srt_ste_callnumber
+          value: MAG3 730.92 HOU
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_author
+          value: Réau Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_author
+          value: Louis Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_author
+          value: 614
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_author
+          value: Réau
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_author
+          value: Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_author
+          value: 665
+        - !!perl/hash:WebService::Solr::Field
+          name: srt_ste_author
+          value: Réau Louis
+        - !!perl/hash:WebService::Solr::Field
+          name: int_availability
+          value: 1
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_itemcallnumber
+          value: MAG3 730.92 HOU
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_title
+          value: 'Houdon, sa vie son oeuvre'
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_title
+          value: ",ouvrage posthume suivi d'un catalogue systématique"
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_title
+          value: Catalogue de l'oeuvre et reproductions
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_title-cover
+          value: 'Houdon, sa vie son oeuvre'
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_title-cover
+          value: ",ouvrage posthume suivi d'un catalogue systématique"
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_title-cover
+          value: Catalogue de l'oeuvre et reproductions
+        - !!perl/hash:WebService::Solr::Field
+          name: str_homebranch
+          value: CENTRE
+        - !!perl/hash:WebService::Solr::Field
+          name: ste_pubplace
+          value: rrr
+        - !!perl/hash:WebService::Solr::Field
+          name: str_itype
+          value: 1
+        - !!perl/hash:WebService::Solr::Field
+          name: recordid
+          value: 42
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_publisher
+          value: F. de Nobèle
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_personnal-name
+          value: 615
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_personnal-name
+          value: Houdon
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_personnal-name
+          value: Jean Antoine
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_personnal-name
+          value: 1741-1828
+        - !!perl/hash:WebService::Solr::Field
+          name: emste_personnal-name
+          value: 232
+  pager: !!perl/hash:Data::Page
+    current_page: 1
+    entries_per_page: 10
+    total_entries: 1
+  raw_response: !!perl/hash:HTTP::Response
+    _content: "{\"responseHeader\":{\"status\":0,\"QTime\":0,\"params\":{\"start\":\"0\",\"q\":\"id:biblio_42\",\"facets\":\"true\",\"wt\":\"json\",\"fq\":\"recordtype:biblio\",\"rows\":\"10\"}},\"response\":{\"numFound\":1,\"start\":0,\"docs\":[{\"id\":\"biblio_42\",\"srt_str_location\":\"36\",\"srt_ste_title\":\"Houdon, sa vie son oeuvre\",\"srt_ste_author\":\"RÃ©au Louis\",\"recordid\":\"42\",\"srt_date_pubdate\":\"1964-01-01T00:00:00Z\",\"srt_str_ccode\":\"1\",\"recordtype\":\"biblio\",\"srt_date_acqdate\":\"2011-05-19T00:00:00Z\",\"srt_ste_callnumber\":\"MAG3 730.92 HOU\",\"ste_publisher\":[\"F. de NobÃ¨le\"],\"int_lost\":[1],\"ste_subject\":[\"615\",\"Houdon\",\"Jean Antoine\",\"1741-1828\",\"232\"],\"str_subject\":[\"615\",\"Houdon\",\"Jean Antoine\",\"1741-1828\",\"232\"],\"int_authid\":[615,614],\"str_itype\":[\"1\"],\"emste_personnal-name\":[\"615\",\"Houdon\",\"Jean Antoine\",\"1741-1828\",\"232\"],\"int_rflag\":[2],\"ste_callnumber\":[\"MAG3 730.92 HOU\"],\"int_availability\":[1],\"str_homebranch\":[\"CENTRE\"],\"str_lang\":[\"fre\"],\"ste_title-cover\":[\"Houdon, sa vie son oeuvre\",\",ouvrage posthume suivi d'un catalogue systÃ©matique\",\"Catalogue de l'oeuvre et reproductions\"],\"date_pubdate\":[\"1964-01-01T00:00:00Z\"],\"ste_personnal-name\":[\"615\",\"Houdon\",\"Jean Antoine\",\"1741-1828\",\"232\"],\"emste_name\":[\"614\",\"RÃ©au\",\"Louis\",\"665\"],\"str_location\":[\"36\"],\"emste_callnumber\":[\"MAG3 730.92 HOU\"],\"ste_author\":[\"RÃ©au Louis\",\"Louis RÃ©au\",\"614\",\"RÃ©au\",\"Louis\",\"665\"],\"emste_subject\":[\"615\",\"Houdon\",\"Jean Antoine\",\"1741-1828\",\"232\"],\"emste_itemcallnumber\":[\"MAG3 730.92 HOU\"],\"str_identifier\":[\"42\",\"BFMLIM507\"],\"str_holdingbranch\":[\"CENTRE\"],\"str_ccode\":[\"1\"],\"emste_publisher\":[\"F. de NobÃ¨le\"],\"str_author\":[\"RÃ©au Louis\",\"Louis RÃ©au\",\"614\",\"RÃ©au\",\"Louis\",\"665\"],\"ste_name\":[\"614\",\"RÃ©au\",\"Louis\",\"665\"],\"ste_author-name-personal\":[\"RÃ©au\"],\"date_acqdate\":[\"2011-05-19T00:00:00Z\"],\"emste_author-firstname\":[\"Louis\"],\"emste_author-name-personal\":[\"RÃ©au\"],\"date_lastmodified\":[\"2011-05-19T00:00:00Z\"],\"emste_pubplace\":[\"rrr\"],\"str_barcode\":[\"38700004081742\"],\"int_biblionumber\":[42],\"emste_author\":[\"RÃ©au Louis\",\"Louis RÃ©au\",\"614\",\"RÃ©au\",\"Louis\",\"665\"],\"emste_title\":[\"Houdon, sa vie son oeuvre\",\",ouvrage posthume suivi d'un catalogue systÃ©matique\",\"Catalogue de l'oeuvre et reproductions\"],\"ste_author-firstname\":[\"Louis\"],\"emste_title-cover\":[\"Houdon, sa vie son oeuvre\",\",ouvrage posthume suivi d'un catalogue systÃ©matique\",\"Catalogue de l'oeuvre et reproductions\"],\"str_item\":[\"HOU\",\"MAG3 730.92 HOU\",\"Adulte\",\"Documentaire\",\"38700004081742\",\"2011-05-19\",\"46\",\"CENTRE\",\"1\",\"730.92\",\"36\",\"MAG3\",\"4\"],\"ste_title\":[\"Houdon, sa vie son oeuvre\",\",ouvrage posthume suivi d'un catalogue systÃ©matique\",\"Catalogue de l'oeuvre et reproductions\"],\"ste_itemcallnumber\":[\"MAG3 730.92 HOU\"],\"date_entereddate\":[\"2011-05-19T00:00:00Z\"],\"ste_pubplace\":[\"rrr\"]}]}}"
+    _headers: !!perl/hash:HTTP::Headers
+      client-date: 'Fri, 23 Mar 2012 11:02:27 GMT'
+      client-peer: 127.0.0.1:8983
+      client-response-num: 1
+      connection: close
+      content-type: text/plain; charset=utf-8
+      etag: '"YTk4OWIyM2I4YzgwMDAwMFNvbHI="'
+      last-modified: 'Mon, 19 Mar 2012 15:18:24 GMT'
+      server: Jetty(6.1.3)
+    _msg: OK
+    _protocol: HTTP/1.1
+    _rc: 200
+    _request: !!perl/hash:HTTP::Request
+      _content: ''
+      _headers: !!perl/hash:HTTP::Headers
+        user-agent: libwww-perl/5.837
+      _method: GET
+      _uri: !!perl/scalar:URI::http http://localhost:8983/solr/devsolr/select?q=id%3Abiblio_42&wt=json&fq=recordtype%3Abiblio&rows=10&facets=true&start=0
+      _uri_canonical: !!perl/scalar:URI::http http://localhost:8983/solr/devsolr/select?q=id%3Abiblio_42&wt=json&fq=recordtype%3Abiblio&rows=10&facets=true&start=0
+spell_frequencies: {}
+spell_suggestions: {}

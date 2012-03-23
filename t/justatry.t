@@ -1,7 +1,16 @@
+package Just::A::Try;
+sub yo { 'yo!' }
+
+package Just::Another::Try;
+use Moose;
+has yo (
+);
+sub yopla { 
+sub yo { 'yo!' }
+
 use Test::More;
 use Test::TinyMocker;
-use lib 'lib';
-use SearchEngine::Search;
+use Just::A::Try;
 
 #mock 'Data::SearchEngine::Solr->search'
 mock 'SearchEngine::Search->new'
